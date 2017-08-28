@@ -1,0 +1,14 @@
+{% extends "homeBase.html.twig" %}
+{% block style %}
+    <!-- <link rel="stylesheet" href="asset/style/css/style-mel.css"> -->
+{% endblock style %}
+{% block header %}
+    {% include 'Home/homeHeader.html.twig' %}
+{% endblock %}
+{% block body %}
+{% for nom in list %}
+    <tr>
+        <td>{{ nom.nom }}</td>
+    </tr>
+    {% endfor %}
+{% endblock %}

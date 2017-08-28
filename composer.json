@@ -1,0 +1,21 @@
+{
+    "name": "olivier/m2l-mvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zorn93",
+            "email": "olivier93170@hotmail.fr"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.2",
+        "twig/twig": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "Controller/",
+            "Model\\": "Model/",
+            "Core\\": "Core/"
+        }
+    }
+}
